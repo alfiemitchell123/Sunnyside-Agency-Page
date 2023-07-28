@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body main header nav ul li {
+  font-family: "Barlow", sans-serif;
+  display: inline;
+  padding-right: 30px;
+}
+body main h1 {
+  font-family: "Fraunces", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+/*# sourceMappingURL=output.css.map */

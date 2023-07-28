@@ -1,0 +1,52 @@
+// Font imports
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap');
+
+// Colours
+$soft-red: hsl(7, 99%, 70%);
+$yellow: hsl(51, 100%, 49%);
+$dark-desat-cyan: hsl(167, 40%, 24%);
+$dark-blue: hsl(198, 62%, 26%);
+$dark-cyan: hsl(168, 34%, 41%);
+
+$very-dark-desat-blue: hsl(212, 27%, 19%);
+$very-dark-grayish-blue: hsl(213, 9%, 39%);
+$dark-grayish-blue: hsl(232, 10%, 55%);
+$grayish-blue: hsl(210, 4%, 67%);
+
+// Fonts
+$font-size-18: 18px;
+$barlow: 'Barlow', sans-serif;
+$barlow-600: 600;
+$fraunces: 'Fraunces', sans-serif;
+$fraunces-700: 700;
+$fraunces-900: 900;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    main {
+        header {
+            nav {
+                ul {
+                    li {
+                        font-family: $barlow;
+                        display: inline;
+                        padding-right: 30px;
+                    }
+                }
+            }
+        }
+
+        h1 {
+            font-family: $fraunces;
+            font-weight: $fraunces-700;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+        }
+    }
+}
